@@ -55,7 +55,7 @@ html
 ```
 
 
-Let's look at the structure of [a page](https://github.com/ga-wdi-exercises/js-dom-quotes/blob/master/index.html)
+Let's look at the structure of [a page](https://generalassemb.ly/)
 
 ## The Document Object (5 min)
 
@@ -68,7 +68,6 @@ Everything in the HTML DOM is called a node. Elements are called element nodes, 
 You also can refer to nodes by their relationships to each other. For example, in the graphic above, you would say that the body element is the parent to the two div elements contained inside it, which are called child nodes. The two divs are also siblings to one another because they are on the same level in the tree structure.
 
 Let's look at another example:
-
 
 ![](http://www.dege.ukfsn.org/dom/dom.gif)
 
@@ -85,7 +84,7 @@ It's also important to note that jQuery IS Javascript so it's not accurate to sa
 ### Set up environment (5 minutes)
 
 ```
-$ git clone https://github.com/ga-wdi-exercises/jquery-playground.git && cd jquery-playground && atom . && open index.html
+$ git clone https://github.com/sf-wdi-gaia/jquery-playground.git && cd jquery-playground && subl . && open index.html
 ```
 
 You can add jQuery to your site by either downloading the file from the jQuery website and hosting locally or using what's called a Content Delivery Network (CDN). A CDN is a collection of global servers that caches and delivers content including Javascript files.
@@ -238,7 +237,7 @@ Use []. ex: document.getElementById("myID").childNodes[2]
 
 ## You Do: Selecting DOM elements (20 min)
 
-Go to [this repo](https://github.com/ga-wdi-exercises/js-dom-quotes) and follow the instructions in the jQuery branch.
+Go to [this repo](https://github.com/sf-wdi-gaia/js-dom-quotes) and follow the instructions in the jQuery branch.
 
 Test out grabbing DOM elements using the selectors above.
 
@@ -564,4 +563,3 @@ $("p").each(function(){
 Grab links - Exercise - You do
 Assuming a page is using standard anchors for links, write some javascript, using the `.each` method, that gets all the link url's in an array.
 
-[![Build Status](https://travis-ci.org/ga-wdi-lessons/js-dom.svg?branch=master)](https://travis-ci.org/ga-wdi-lessons/js-dom)
